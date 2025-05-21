@@ -102,7 +102,8 @@ public class Main {
 
 		for (Tirada i : partidas) {
 			if (i != null) {
-				if (i.totalLanzamiento() > mayor)
+				//aqui en el examen me equivoque y llame al metodo"totalLanzamiento()" por clicar mal
+				if (i.mejorLanzamiento() > mayor)
 					mayor = i.mejorLanzamiento();
 			}
 		}
